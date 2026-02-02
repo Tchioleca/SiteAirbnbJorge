@@ -1,0 +1,83 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #F8F8F6;
+  margin: 0;
+}
+
+.booking-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.calendar-panel {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.calendar-panel h2 {
+  margin-bottom: 20px;
+}
+
+.calendar-panel input,
+.calendar-panel button {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.calendar-panel button {
+  background: #1C1C1C;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.rooms-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.room-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+}
+
+.room-card img {
+  width: 180px;
+  object-fit: cover;
+}
+
+.room-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.room-info h3 {
+  margin: 0 0 10px 0;
+}
+
+.room-info .price {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.room-info .tag {
+  color: #8A6F3D;
+  font-size: 14px;
+}
+
+.room-info button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #1C1C1C;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
